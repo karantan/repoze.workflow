@@ -33,7 +33,7 @@ CHANGES = _read_file('CHANGES.rst')
 
 requires = [
     'setuptools',
-    'repoze.zcml',
+    'repoze.zcml==1.0b1',
     'zope.component',
     'zope.interface',
     'zope.configuration>=3.8.0',
